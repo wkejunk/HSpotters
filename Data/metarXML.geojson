@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XML-Schema-instance" version="1.2" xsi:noNamespaceSchemaLocation="http://aviationweather.gov/adds/schema/metar1_2.xsd">
+    <request_index>48880925</request_index>
+    <data_source name="metars" />
+    <request type="retrieve" />
+    <errors />
+    <warnings />
+    <time_taken_ms>7</time_taken_ms>
+    <data num_results="1">
+        <METAR>
+            <raw_text>KEWR 091505Z 02007KT 3/4SM R04R/5000VP6000FT -SN BKN008 OVC013 M01/M04 A2994 RMK AO2 P0000 T10061039</raw_text>
+            <station_id>KEWR</station_id>
+            <observation_time>2017-12-09T15:05:00Z</observation_time>
+            <latitude>40.68</latitude>
+            <longitude>-74.17</longitude>
+            <temp_c>-0.6</temp_c>
+            <dewpoint_c>-3.9</dewpoint_c>
+            <wind_dir_degrees>20</wind_dir_degrees>
+            <wind_speed_kt>7</wind_speed_kt>
+            <visibility_statute_mi>0.75</visibility_statute_mi>
+            <altim_in_hg>29.940945</altim_in_hg>
+            <quality_control_flags>
+            <auto_station>TRUE</auto_station>
+            </quality_control_flags>
+            <wx_string>-SN</wx_string>
+            <sky_condition sky_cover="BKN" cloud_base_ft_agl="800" />
+            <sky_condition sky_cover="OVC" cloud_base_ft_agl="1300" />
+            <flight_category>LIFR</flight_category>
+            <precip_in>0.005</precip_in>
+            <metar_type>METAR</metar_type>
+            <elevation_m>7.0</elevation_m>
+        </METAR>
+    </data>
+</response>
+//https://www.aviationweather.gov/adds/dataserver_current/httpparam?dataSource=metars&requestType=retrieve&format=xml&hoursBeforeNow=1&mostRecent=true&stationString=KIAH
